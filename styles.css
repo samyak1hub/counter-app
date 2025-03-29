@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+    width: 400px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.mode-switch button {
+    margin: 8px;
+    padding: 12px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.mode-switch button:hover {
+    background: #0056b3;
+}
+
+.display {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 30px 0;
+    padding: 20px;
+    background: #282828;
+    border-radius: 10px;
+}
+
+.controls button, .counter-controls button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.controls button:hover, .counter-controls button:hover {
+    background: #0056b3;
+}
+
+#reset {
+    background: #dc3545;
+}
+
+#reset:hover {
+    background: #a71d2a;
+}
+
+.hidden {
+    display: none;
+}
+
+.counter-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-controls span {
+    font-size: 30px;
+    margin: 0 20px;
+}

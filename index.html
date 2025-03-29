@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Counter App</h1>
+
+        <div class="mode-switch">
+            <button id="stopwatchMode">Stopwatch</button>
+            <button id="countdownMode">Countdown</button>
+            <button id="counterMode">Counter</button>
+        </div>
+
+        <div class="display">00:00.00</div>
+
+        <div class="controls">
+            <button id="startStop">Start</button>
+            <button id="lap" class="hidden">Lap</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <div class="counter-controls hidden">
+            <button id="decrement">-</button>
+            <span id="counterValue">0</span>
+            <button id="increment">+</button>
+        </div>
+
+        <ul id="laps" class="hidden"></ul>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
